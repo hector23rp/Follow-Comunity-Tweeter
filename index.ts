@@ -13,7 +13,7 @@ class App {
 
   initialize() {
     // Creación de cliente de Twitter
-    this.client = new Twitter(secret);
+    // this.client = new Twitter(secret);
 
     this.client_stream = new Twitterstream(secret)
 
