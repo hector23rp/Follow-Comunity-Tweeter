@@ -7,7 +7,7 @@ export const config = {
         result_type: "recent"
         //until: "2016-01-01"
     },
-    tags: ['@ahorapodemos','@psoe','@populares','@ciudadanos','@vox_es','@esquerra_erc','@eajpnv','#DebateRTVE',
+    tags: ['@ahorapodemos','@psoe','@populares','@ciudadanoscs','@vox_es','@esquerra_erc','@eajpnv','#DebateRTVE',
     '#ElDebateDecisivo','#28Abril','#Podemos','#PSOE','#PartidoPopular','#PP','#Ciudadanos','#VOX']
     /* technologies: ['frontend','javascript', 'nodejs', 'python','java','php','typescript','swift',
     'Data Visualization','Logistic Regression', 'Cross-Validation','Decision Trees','Random Forests',
