@@ -10,9 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^11.13.8",
+    "fs": "0.0.1-security",
     "mongoose": "^5.5.1",
     "node-tweet-stream": "^2.0.3",
     "node-twitter-api": "^1.8.0",
+    "tunnel-ssh": "^4.1.4",
     "twitter": "^1.7.1"
   }
 }
