@@ -6,3 +6,4 @@ myenv/
 twitterapi.py
 .*
 *.log
+tmp.ts
