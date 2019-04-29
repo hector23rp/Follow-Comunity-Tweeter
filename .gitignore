@@ -1,6 +1,9 @@
 node_modules/
 secret.ts
 env/
-reunion.22.04.txt
+myenv/
+*.txt
 twitterapi.py
 .*
+*.log
+tmp.ts
