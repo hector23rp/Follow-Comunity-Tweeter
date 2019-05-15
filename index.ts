@@ -33,7 +33,7 @@ class App {
     return new Promise((resolve, rejected) => {
       // SSH túnel a AWS
       this.serverTunnel = tunnel({
-        host: '18.233.5.144',
+        host: '35.170.242.227',
         username: 'ubuntu',
         privateKey: fs.readFileSync('/home/hector/Documentos/Master/DespliegueOperServicios/c09.pem'),
         port: 22,
@@ -87,8 +87,8 @@ class App {
   saveInNeo4j(user1: User, user2: User, realtionship: string) {
     user1.name = app.removeQuotes(user1.name);
     user2.name = app.removeQuotes(user2.name);
-    user1.name = app.removeEmojis(user1.name);
-    user2.name = app.removeEmojis(user2.name);
+   /*  user1.name = app.removeEmojis(user1.name);
+    user2.name = app.removeEmojis(user2.name); */
     const session = this.session_neo4j;
 
     return new Promise((resolve, rejected) => {
