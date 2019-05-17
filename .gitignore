@@ -1,9 +1,0 @@
-node_modules/
-secret.ts
-env/
-myenv/
-*.txt
-twitterapi.py
-.*
-*.log
-tmp.ts
